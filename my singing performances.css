@@ -1,0 +1,36 @@
+main{
+	background-image: url("pictures/stage performance.jpg");
+	padding: 1%;
+	margin: 20px;
+	text-align: right;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	font-size: 40px;
+	line-height: 900px;
+}
+div.song_gallery video{
+	width: 400px;
+	height: 300px;
+	margin-bottom: 50px;
+}
+div.song_gallery iframe{
+	width: 400px;
+	height: 300px;
+}
+div.song_gallery{
+	display: inline-flex;
+	padding-left: 2%;
+	margin-right: 40px;
+}
+p{
+	padding: 1%;
+}
+div.next{
+	padding: 12%;
+	text-align: right;
+}
+div.next a:hover{
+	color: #FF3300;
+}

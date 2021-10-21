@@ -1,0 +1,54 @@
+main{
+	background-image: url("pictures/colours.jpg");
+	padding: 4%;
+	margin: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+div.gallery {
+  margin-left: 100px;
+  float: left;
+  width: 150px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+p{
+	margin-left: 20px;
+	font-size: 25px;
+}
+div.gallery:hover {
+	border: 2px solid black;
+	transform: scale(2,2);
+}
+.bottom{
+	margin-top: 450px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+div.centerdiv{
+	margin-left: 670px;
+	height: 100px;
+	width: 100px;
+	background-color: #FFB3DA;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 1px 4px 2px 2px #FF66B5;
+	line-height: 110px;
+}
+.fa-instagram{
+	color: #4700B3;
+}
+div.centerdiv:hover i{
+	transform: scale(1.4);
+}
+div.next{
+	padding: 12%;
+	text-align: right;
+}
+div.next a:hover{
+	color: #FF3300;
+}
